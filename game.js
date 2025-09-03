@@ -1,3 +1,4 @@
+window.onload = function() {
 // Cube properties
 let x = 225, y = 225;
 const size = 50, speed = 5;
@@ -26,3 +27,4 @@ document.addEventListener('keydown', function(e) {
 
 // Initial draw
 draw();
+};
