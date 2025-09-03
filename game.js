@@ -1,6 +1,6 @@
 alert("Game loaded!");
 // Your game code goes here
-const myImage = document.querySelector("test.png");
+const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
